@@ -115,7 +115,7 @@ WSGI_APPLICATION = 'django_lms.wsgi.application'
 #     'default': {
 #         'ENGINE': 'django.db.backends.mysql',
 #         'NAME': 'django_lms1',
-#         'USER': 'root',
+#         'USER': 'dev',
 #         'PASSWORD': 'root',
 #         'HOST': 'localhost',
 #         'PORT': '3306',
@@ -132,6 +132,7 @@ DATABASES = {
         'PORT': '3306',
     }
 }
+
 
 
 # Password validation
